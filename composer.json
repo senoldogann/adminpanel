@@ -1,0 +1,33 @@
+{
+    "name": "senoldogan/adminpanel",
+    "description": "Gelişmiş Laravel Admin Panel ve CMS sistemi",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Şenol Doğan",
+            "email": "contact@senoldogan.dev"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0",
+        "livewire/livewire": "^3.0",
+        "spatie/laravel-permission": "^6.0",
+        "spatie/laravel-medialibrary": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SenolDogan\\AdminPanel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SenolDogan\\AdminPanel\\Providers\\AdminPanelServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+} 
