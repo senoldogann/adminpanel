@@ -152,7 +152,7 @@ GET /api/posts/{slug}
 
 ## Güvenlik
 
-Güvenlik açıklarını bildirmek için lütfen e-posta gönderin: info@senoldogan.com
+Güvenlik açıklarını bildirmek için lütfen e-posta gönderin: contact@senoldogan.dev
 
 ## Lisans
 
